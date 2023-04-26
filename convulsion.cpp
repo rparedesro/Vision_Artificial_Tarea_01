@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Funcionque definie filtro de convulsion
+// Funcion que define el filtro de convulsion
 vector<vector<float>> convolve(vector<vector<float>> image, vector<vector<float>> kernel)
 {
     int img_h = image.size();
